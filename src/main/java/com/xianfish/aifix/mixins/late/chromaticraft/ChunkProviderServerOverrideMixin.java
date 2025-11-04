@@ -12,7 +12,7 @@ import micdoodle8.mods.galacticraft.core.util.WorldUtil;
 // 修复DragonAPI与GalacticraftCore的兼容问题。不确定是否会产生某种副作用。
 // 未实现
 
-@Mixin(value = ChunkProviderServer.class, priority = 1500 )
+@Mixin(value = ChunkProviderServer.class, priority = 1500)
 public class ChunkProviderServerOverrideMixin {
 
     @WrapWithCondition(

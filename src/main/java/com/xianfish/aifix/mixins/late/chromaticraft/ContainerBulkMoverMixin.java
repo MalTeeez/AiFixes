@@ -11,7 +11,7 @@ import Reika.ChromatiCraft.Container.ContainerBulkMover;
 import Reika.ChromatiCraft.Registry.ChromaItems;
 import Reika.DragonAPI.Libraries.Registry.ReikaItemHelper;
 
-@Mixin(ContainerBulkMover.class)
+@Mixin(value = ContainerBulkMover.class, remap = false)
 public abstract class ContainerBulkMoverMixin extends Container {
 
     @Shadow

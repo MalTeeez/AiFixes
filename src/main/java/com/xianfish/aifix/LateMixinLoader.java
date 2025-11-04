@@ -30,9 +30,9 @@ public class LateMixinLoader implements ILateMixinLoader {
             mixins.add("chromaticraft.CommandableUpdateCheckerMixin");
         }
 
-        // if (loadedMods.contains("GalacticraftCore")) {
-        //     mixins.add("chromaticraft.ChunkProviderServerOverrideMixin");
-        // }
+//         if (loadedMods.contains("GalacticraftCore")) {
+//             mixins.add("chromaticraft.ChunkProviderServerOverrideMixin");
+//         }
 
         return mixins;
     }
